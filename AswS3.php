@@ -2,12 +2,12 @@
 
 namespace app\models\amazon;
 
-use Aws\S3\S3Client;
 use Yii;
 use Aws\Sdk;
 use yii\base\Model;
+use Aws\S3\S3Client;
 
-class AwsS3Component extends Model
+class AwsS3 extends Model
 {
     CONST ACL_PRIVATE = 'private';
     CONST ACL_PUBLIC_READ = 'public-read';
